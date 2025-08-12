@@ -1,5 +1,15 @@
 {
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "Minecraft Bedrock bot for DonutSMP",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "bedrock-protocol": "^3.48.1"
+    "bedrock-protocol": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
